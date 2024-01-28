@@ -1,0 +1,138 @@
+<html>
+	<title>W3.CSS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/w3.css">
+	<body>
+		<img src="cr7thumbnail.jpg" style="width: 100%; height: 250px;">
+			<div class="w3-bar w3-black w3-animate-top">
+				<button class="w3-bar-item w3-button" onclick="openKota('AboutCR7')">About CR7</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('NationalTeam')">National Team</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('ClubTeam')">Club Team</button>
+	<div class="w3-dropdown-hover">
+				<button class="w3-button">National Trophy</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button" onclick="openKota('EURO')">EURO</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('NATIONALLEAGUE')">NATIONAL LEAGUE</button>
+			</div>
+	</div>
+	<div class="w3-dropdown-hover">
+				<button class="w3-button">Club Trophy</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button" onclick="openKota('UCL')">UEFA CHAMPIONS LEAGUE</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('US')">UEFA SUPERCUP</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('FCWC')">FIFA CLUB WORLD CUP</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('ELC')">ENGLISH LEAGUE CHAMPION</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('ILC')">ITALIAN LEAGUE CHAMPION</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('SLC')">SPANISH LEAGUE CHAMPION</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('EFC')">ENGLISH FA CUP</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('SCP')">SPANISH CUP</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('ICP')">ITALIAN CUP</button>
+			</div>
+	</div>
+				<button class="w3-bar-item w3-button" onclick="openKota('AboutMe')">About Me</button>
+				
+			<div id="AboutCR7" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>Cristiano Ronaldo</h2>
+					<img src="cr7about.jpg" style="width: 35%; height: 250px;">
+						<p>Cristiano Ronaldo dos Santos Aveiro lahir pada 5 Februari 1985. Ia adalah pemain sepak bola profesional Portugis yang bermain sebagai penyerang untuk klub Liga Arab Al-Nassr dan menjadi kapten tim nasional Portugal. Cristiano Ronaldo kini mengoleksi gol terbanyak sepanjang masa, sering dianggap sebagai pemain terbaik di dunia dan secara luas dianggap sebagai salah satu pemain terhebat sepanjang masa.</p>
+							
+			</div>
+			
+			<div id="NationalTeam" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>Portugal</h2>
+					<img src="PortugalTeam.png" style="width: 20%; height: 250px; ">			
+			</div>
+			
+			<div id="ClubTeam" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>Al-Nassr</h2>
+					<img src="Al-Nassr.png" style="width: 20%; height: 250px; ">
+			</div>
+			
+			<div id="EURO" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>EURO</h2>
+					<img src="cr7national.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Timnas Portugal, Cristiano Ronaldo memiliki 1 trophy EURO.</p>
+			</div>
+			
+			<div id="NATIONALLEAGUE" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>NATIONAL LEAGUE</h2>
+					<img src="cr7nl.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Timnas Portugal, Cristiano Ronaldo memiliki 1 trophy NATIONAL LEAGUE.</p>
+			</div>
+			
+			<div id="UCL" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>UEFA CHAMPIONS LEAGUE</h2>
+					<img src="cr7ucl.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 5 trophy uefa champions league.</p>
+			</div>
+			
+			<div id="US" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>UEFA SUPERCUP</h2>
+					<img src="cr7sc.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 3 trophy uefa supercup.</p>
+			</div>
+			
+			<div id="FCWC" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>FIFA WORLD CLUB CUP</h2>
+					<img src="cr7fwc.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 4 trophy fifa world cup.</p>
+			</div>
+			
+			<div id="ELC" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>ENGLISH LEAGUE CHAMPION</h2>
+					<img src="cr7ec.webp" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 3 trophy english league champion.</p>
+			</div>
+			
+			<div id="ILC" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>ITALIAN LEAGUE CHAMPION</h2>
+					<img src="cr7ilc.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 2 italian league champion.</p>
+			</div>
+			
+			<div id="SLC" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>SPANISH LEAGUE CHAMPION</h2>
+					<img src="cr7slc.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 2 spanish league champion.</p>
+			</div>
+			
+			<div id="EFC" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>ENGLISH FA CUP</h2>
+					<img src="cr7fa.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 1 english fa cup.</p>
+			</div>
+			
+			<div id="SCP" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>SPANISH CUP</h2>
+					<img src="cr7scp.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 2 spanish cup.</p>
+			</div>
+			
+			<div id="ICP" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>ITALIAN CUP</h2>
+					<img src="cr7ic.jpg" style="width: 20%; height: 250px; ">
+					<p>Bersama Club, Cristiano Ronaldo memiliki 1 italian cup.</p>
+			</div>
+			
+			<div id="AboutMe" class="w3-container kota w3-animate-zoom" style="display:none">
+				<h2>Profile</h2>
+					<img src="dul.jpg" style="width: 25%; height: 200px; ">
+					<br>
+					NAME : Zhildan Saputra
+					<br>
+					NIM	 : 10123188
+					<br>
+					KELAS: IF-5
+			</div>
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(namakota).style.display = "block"; 
+}
+</script>
+</body>
+</html>
